@@ -11,7 +11,6 @@ def isValid(s: str) -> bool:
 
         t = s.split("--")
         s = "".join(t)
-        print(s)
         
     if len(s) == 0:
         return True
