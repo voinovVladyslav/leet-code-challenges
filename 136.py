@@ -1,6 +1,3 @@
-from wsgiref.util import request_uri
-
-
 def singleNumber(n: list[int]) -> int:
     n.sort()
     if len(n) > 1:
